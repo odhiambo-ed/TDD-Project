@@ -1,12 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# School Library OOP
+# Test-driven development (TDD)
 
+This is an application that tests method called fizzbuzz that takes one argument, an integer N, and returns a string. The returned string is constructed following these rules:
 
-![1](https://user-images.githubusercontent.com/32932447/175525265-c2bb0930-2c4c-4b53-92bf-0c0705f15194.PNG)
-
-
-![3](https://user-images.githubusercontent.com/32932447/175525336-f5f145b7-1d45-4798-b5e9-b44997ebbeb7.PNG)
+`````
+When N is divisible by 3, return "fizz".
+When N is divisible by 5, return "buzz".
+When N is divisible by 3 and 5, return "fizzbuzz".
+Any other case, return N as a string (e.g. say N is 7 then return "7").
+`````
 
 ## Built With
 
@@ -21,10 +24,10 @@
 
 ## Get Started
 ```
-To get a clone of the project, run `git clone git@github.com:sainingo/school_library_oop.git`
+To get a clone of the project, run `git clone https://github.com/white3d/TDD-Project.git`
 ```
 ```
-cd /school_library_oop
+cd /TDD-Project
 ```
 
 ### Available Scripts
@@ -58,6 +61,13 @@ ubhandle](https://github.com/misheck12)
 - GitHub: [@githubhandle](https://github.com/misheck12)
 - Twitter: [@twitterhandle](https://twitter.com/mishecklivingi2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/misheck-livingi-a0b536142/)
+
+
+👤 **Edward Odhiambo**
+
+- GitHub: [@whit3d](https://github.com/white3d)
+- Twitter: [@odhiambo_ed](https://twitter.com/odhiambo_ed)
+- LinkedIn: [Edward Odhiambo](https://www.linkedin.com/in/edward-odhiambo-6a462a21b/)
 
 
 
