@@ -1,4 +1,5 @@
 require './solver'
+
 describe Solver do
   context 'Should call reverse method and return the reverse of string' do
     it 'Ahmed should return demhA' do

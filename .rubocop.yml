@@ -1,9 +1,9 @@
 AllCops:
   NewCops: enable
   Exclude:
-    - "Guardfile"
-    - "Rakefile"
-    - "node_modules/**/*"
+    - 'Guardfile'
+    - 'Rakefile'
+    - 'node_modules/**/*'
 
   DisplayCopNames: true
 
@@ -15,10 +15,13 @@ Metrics/AbcSize:
   Max: 50
 Metrics/ClassLength:
   Max: 150
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
   Max: 30
-
 
 Style/Documentation:
   Enabled: false
@@ -50,3 +53,7 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+Style/GlobalVars:
+  Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: false 
